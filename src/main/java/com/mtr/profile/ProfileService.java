@@ -43,7 +43,7 @@ public class ProfileService {
 			name = name.substring(index, name.length());
 		}
 		//		String URL =  "E:\\All_GitHub_Project\\Angular_Project\\Angular_With_Boot\\src\\assets\\images\\" + userCode + name;
-		String URL =  "https://github.com//iambashir//Spring_Boot_Image_Crud//tree//main//src//main//resources//templates//assets//" + userCode + name;
+		String URL =  "https://github.com/iambashir/Spring_Boot_Image_Crud/tree/main/src/main/resources/templates/assets/" + userCode + name;
 		try {
 			Files.copy(file.getInputStream(), Paths.get(URL), StandardCopyOption.REPLACE_EXISTING);
 			System.out.println("image uploaded from this side");
@@ -64,7 +64,7 @@ public class ProfileService {
 			name = name.substring(index, name.length());
 		}
 //		String URL =  "E:\\All_GitHub_Project\\Angular_Project\\Angular_With_Boot\\src\\assets\\images\\" + userCode + name;
-		String URL =  "https://github.com//iambashir//Spring_Boot_Image_Crud//tree//main//src//main//resources//templates//assets//" + userCode + name;
+		String URL =  "https://github.com/iambashir/Spring_Boot_Image_Crud/tree/main/src/main/resources/templates/assets/" + userCode + name;
 		try {
 			Files.copy(file.getInputStream(), Paths.get(URL), StandardCopyOption.REPLACE_EXISTING);
 			System.out.println("image uploaded from this side");
